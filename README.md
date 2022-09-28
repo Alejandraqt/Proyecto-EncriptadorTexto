@@ -22,3 +22,11 @@ El programa debe trabajar unicamente con letras minusculas para evitar errores, 
 
 Desarrollo:
 Este encriptador sera desarrollado con HMTL, CSS, y JavaScript.
+
+Recursos utilizados de Figma:
+El diseño padrón dado por Alura
+https://www.figma.com/file/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=0%3A1
+
+Otros diseños utilizados en el código
+https://www.figma.com/file/Di8Oy2etDKvpEZn14AwKwJ/Interrupting-Cat-(Community)?node-id=0%3A1
+https://www.figma.com/file/Unt1c1h47CGGB9V8xXCEeJ/Cats-in-Cups-(Community)
