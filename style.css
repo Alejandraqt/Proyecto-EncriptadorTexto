@@ -1,0 +1,100 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #FDFBFB;
+}
+
+header{
+    size: 15px;
+    position:fixed;
+}
+
+main{
+    width: 940px;
+    display: flex;
+    margin: auto;
+    /*para que los text area sean verticales, esta propiedad ayuda a alinear los bloques uno junto al otro*/
+    /* margin-left: 80px;
+    margin-bottom: 50px; */
+}
+
+.input-texto{
+    margin-top: 150px;
+    border: 0;
+    resize: none;
+    background:transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    outline:none;
+} 
+
+.mensaje{
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 120px;
+    background-image: url(Imagenes/Cat.png);
+    background-repeat: no-repeat;
+    background-position: 0px 140px;
+    background-size: 350px;
+    background-color: white;
+    border-radius: 30px;
+    border-color: white;
+    resize: none;
+    box-shadow: -5px 6px 8px -1px rgba(163,163,163,0.56);
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+}
+
+.copiar{
+    position: relative;
+    color: #745577;
+    margin-top: 440px;
+    margin-left: 240px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    background: transparent;
+    padding: 13px 45px;
+    /* display: none; */
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight:bold;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+}
+
+.encriptar{
+    padding: 13px 65px;
+    background-color:#E7AFEC ;
+    color: black;
+    border: 0px ;
+    border-radius: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight:bold;
+
+    
+}
+
+.desencriptar{
+    padding: 13px 65px;
+    margin-left: 30px;
+    border-radius: 30px;
+    background-color:rgba(231, 175, 236, 0.5); 
+    color: black;
+    border: 2px solid #E7AFEC;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight:bold;
+}
+
+#informacion{
+    position: static;
+    margin-top: 280px;
+    font-family: 'Inter', sans-serif;
+}
